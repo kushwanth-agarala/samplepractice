@@ -3,7 +3,9 @@ function bindData(data){
     //result.value+=data;
     }
    function clr(){
+       
  d=txtresult.value.length;
+       console.log(d);
  txtresult.value=txtresult.value.substring(0,d-1);
  document.getElementById("txtresult").value.length+=data
 
